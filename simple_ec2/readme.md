@@ -16,7 +16,13 @@ Será criado os seguintes itens na AWS:
 1) Faça o download e instalação do Terraform de acordo com seu sistema operacional. 
 - [Link](https://developer.hashicorp.com/terraform/downloads) 
 
-2) Faça o download dos arquivos nesse repositório e na pasta onde estão os arquivos digite os sequintes comandos:
+2) Faça o download dos arquivos nesse repositório.
+
+3) Na sua conta AWS, crie um usuário do tipo **`Programmatic access`** e anote sua `access_key` e `secret_key`.
+
+4) No o arquivo `provider.tf` insira as credencias geradas na AWS e salve.
+
+5) Digite os seguintes comandos:
 ```
 terraform init
 
@@ -25,9 +31,9 @@ terraform plan
 terraform apply
 ```
 
-3) Após completo acessa a console AWS e valide o seu trabalho!
+6) Após completo acessa a console AWS e valide o seu trabalho! Verifique o IP da sua EC2 e acessa via browser para validar se o Apache foi instalado.
 
-4) Depois de verificado digite o comando a baixo para deletar os recursos:
+7) Depois de verificado digite o comando a baixo para deletar os recursos:
 
 ```
 terraform destroy
