@@ -12,4 +12,4 @@ Será criado os seguintes itens na AWS:
 Topologia:
 
 
-
+![alt text](https://raw.githubusercontent.com/melqui10/Terraform/main/simple_ec2/simple_ec2.drwaio.png)
