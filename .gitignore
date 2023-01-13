@@ -1,0 +1,4 @@
+simple_ec2/terraform.tfstate
+simple_ec2/.terraform/*
+simple_ec2/.terraform.lock.hcl
+simple_ec2/terraform.tfstate.backup
