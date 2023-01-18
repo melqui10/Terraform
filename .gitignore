@@ -2,3 +2,6 @@ simple_ec2/terraform.tfstate
 simple_ec2/.terraform/*
 simple_ec2/.terraform.lock.hcl
 simple_ec2/terraform.tfstate.backup
+demo-alb/.terraform.lock.hcl
+demo-alb/.terraform/providers/registry.terraform.io/hashicorp/aws/4.50.0/linux_amd64/terraform-provider-aws_v4.50.0_x5
+demo-alb/terraform.tfstate.backup
