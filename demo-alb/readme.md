@@ -13,6 +13,7 @@ Será criado os seguintes itens na AWS:
 - 1 Application Load Balance
 
 **Estrutura das pastas**
+```
 demo-alb
    ├── alb.tf #Configurações do Load Balance
    ├── ec2.tf #Configurações das EC2
@@ -20,6 +21,7 @@ demo-alb
    ├── provider.tf #Informações sobre o service provider
    ├── var.tf # Variaveis
    └── vpc.tf #Configuração da VPC e intens relacionados (subnet, route table, etc)
+```
 
 **How To**:
 
